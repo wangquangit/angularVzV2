@@ -24,5 +24,7 @@ export class ProductService {
   }
 
   // 得到商品详情
-  getProductDetail(lid) {}
+  getProductDetail(lid) {
+    return this.http.get(ProductService.urlProductDetail + `?lid=${lid}`);
+  }
 }

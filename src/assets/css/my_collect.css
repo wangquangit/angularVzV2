@@ -49,9 +49,9 @@
     color:#808080;
     border-top: 1px solid #e8e8e8;
     background: -moz-linear-gradient(top, #f5f4f5 0%, #e6e6e5 100%);
-    background: -webkit-linear-gradient(top, #f5f4f5 0%,#e6e6e5 100%);
     background: -o-linear-gradient(top, #f5f4f5 0%,#e6e6e5 100%);
     background: -ms-linear-gradient(top, #f5f4f5 0%,#e6e6e5 100%);
+    background: -webkit-linear-gradient(top, #f5f4f5 0%,#e6e6e5 100%);
     box-shadow: 3px 3px 6px #ccc;
 }
 .check_top{
@@ -82,9 +82,9 @@
     top:10px;
     left:13px;
     background: -moz-linear-gradient(top, #ffb30f 0%, #eda50a 100%);
-    background: -webkit-linear-gradient(top, #ffb30f 0%, #eda50a 100%);
     background: -o-linear-gradient(top, #ffb30f 0%, #eda50a 100%);
     background: -ms-linear-gradient(top, #ffb30f 0%, #eda50a 100%);
+    background: -webkit-linear-gradient(top, #ffb30f 0%, #eda50a 100%);
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     cursor: pointer;
@@ -92,9 +92,9 @@
 
 .manage:hover{
     background: -moz-linear-gradient(top, #f2aa0e 0%, #e19d09 100%);
-    background: -webkit-linear-gradient(top, #f2aa0e 0%, #e19d09 100%);
     background: -o-linear-gradient(top, #f2aa0e 0%, #e19d09 100%);
     background: -ms-linear-gradient(top, #f2aa0e 0%, #e19d09 100%);
+    background: -webkit-linear-gradient(top, #f2aa0e 0%, #e19d09 100%);
 }
 .Each{
    position: absolute;
@@ -348,9 +348,9 @@
     color:#808080;
     border-top: 1px solid #e8e8e8;
     background: -moz-linear-gradient(top, #f5f4f5 0%, #e6e6e5 100%);
-    background: -webkit-linear-gradient(top, #f5f4f5 0%,#e6e6e5 100%);
     background: -o-linear-gradient(top, #f5f4f5 0%,#e6e6e5 100%);
     background: -ms-linear-gradient(top, #f5f4f5 0%,#e6e6e5 100%);
+    background: -webkit-linear-gradient(top, #f5f4f5 0%,#e6e6e5 100%);
     box-shadow: 3px 3px 6px #ccc;
     margin-bottom: 100px;
     height:46px;

@@ -227,9 +227,9 @@ font-size: 14px;
     height:36px;
     margin-bottom: 16px;
     background: -moz-linear-gradient(top, #f5f4f5 0%, #e6e6e5 100%);
-    background: -webkit-linear-gradient(top, #f5f4f5 0%,#e6e6e5 100%);
     background: -o-linear-gradient(top, #f5f4f5 0%,#e6e6e5 100%);
     background: -ms-linear-gradient(top, #f5f4f5 0%,#e6e6e5 100%);
+    background: -webkit-linear-gradient(top, #f5f4f5 0%,#e6e6e5 100%);
     box-shadow: 3px 3px 6px #ccc;
 }
 .pices,.num,.del,.totle{
@@ -294,9 +294,9 @@ font-size: 14px;
 .foot {
     width: 1000px;
     background: -moz-linear-gradient(top, #f5f4f5 0%, #e6e6e5 100%);
-    background: -webkit-linear-gradient(top, #f5f4f5 0%,#e6e6e5 100%);
     background: -o-linear-gradient(top, #f5f4f5 0%,#e6e6e5 100%);
     background: -ms-linear-gradient(top, #f5f4f5 0%,#e6e6e5 100%);
+    background: -webkit-linear-gradient(top, #f5f4f5 0%,#e6e6e5 100%);
     box-shadow: 3px 3px 6px #ccc;
     position: absolute;
     bottom:0px;
@@ -313,9 +313,9 @@ font-size: 14px;
     height:42px;
     line-height: 42px;
     background: -moz-linear-gradient(top, #27b0f6 0%, #0aa1ed 100%);
-    background: -webkit-linear-gradient(top, #27b0f6 0%, #0aa1ed 100%);
     background: -o-linear-gradient(top, #27b0f6 0%, #0aa1ed 100%);
     background: -ms-linear-gradient(top, #27b0f6 0%, #0aa1ed 100%);
+    background: -webkit-linear-gradient(top, #27b0f6 0%, #0aa1ed 100%);
     margin-left: 22px;
     text-align: center;
     font-size: 18px;

@@ -101,9 +101,9 @@
   height: 40px;
   line-height: 40px;
   background: -moz-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
-  background: -webkit-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
   background: -o-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
   background: -ms-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
+  background: -webkit-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
   text-align: center;
   font-size: 16px;
   border-radius: 2px;
@@ -165,9 +165,9 @@
   height: 40px;
   line-height: 40px;
   background: -moz-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
-  background: -webkit-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
   background: -o-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
   background: -ms-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
+  background: -webkit-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
   text-align: center;
   color: #fff;
   font-size: 16px;
@@ -228,9 +228,9 @@
   height: 30px;
   line-height: 30px;
   background: -moz-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
-  background: -webkit-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
   background: -o-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
   background: -ms-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
+  background: -webkit-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
   text-align: center;
   color: #fff;
   font-size: 14px;
@@ -286,9 +286,9 @@
   -moz-border-radius: 2px;
   border-radius: 2px;
   background: -moz-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
-  background: -webkit-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
   background: -o-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
   background: -ms-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
+  background: -webkit-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
   position: absolute;
   bottom: 10px;
   left: 51px;
@@ -296,9 +296,9 @@
 
 .product a:hover, .floor_content > div > .desc > div.view:hover {
   background: -moz-linear-gradient(top, #25a7e9 0%, #0998df 100%);
-  background: -webkit-linear-gradient(top, #25a7e9 0%, #0998df 100%);
   background: -o-linear-gradient(top, #25a7e9 0%, #0998df 100%);
   background: -ms-linear-gradient(top, #25a7e9 0%, #0998df 100%);
+  background: -webkit-linear-gradient(top, #25a7e9 0%, #0998df 100%);
 }
 
 /*分类头部*/

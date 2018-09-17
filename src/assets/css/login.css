@@ -100,9 +100,9 @@
 }
 .button_login{
     background: -moz-linear-gradient(top, #27b0f6 0%, #0aa1ed 100%);
-    background: -webkit-linear-gradient(top, #27b0f6 0%, #0aa1ed 100%);
     background: -o-linear-gradient(top, #27b0f6 0%, #0aa1ed 100%);
     background: -ms-linear-gradient(top, #27b0f6 0%, #0aa1ed 100%);
+    background: -webkit-linear-gradient(top, #27b0f6 0%, #0aa1ed 100%);
     border-radius: 2px;
     color:#fff;
     text-align:center;
@@ -186,9 +186,9 @@ h2 {
 }
 input[type="button"] {
     background: -moz-linear-gradient(top, #27b0f6 0%, #0aa1ed 100%);
-    background: -webkit-linear-gradient(top, #27b0f6 0%, #0aa1ed 100%);
     background: -o-linear-gradient(top, #27b0f6 0%, #0aa1ed 100%);
     background: -ms-linear-gradient(top, #27b0f6 0%, #0aa1ed 100%);
+    background: -webkit-linear-gradient(top, #27b0f6 0%, #0aa1ed 100%);
     /*border: 1px solid #0a0;*/
     width: 276px;
     color: #fff;

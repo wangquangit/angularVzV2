@@ -383,9 +383,9 @@ input {
     height: 24px;
     line-height: 24px;
     background: -moz-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
-    background: -webkit-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
     background: -o-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
     background: -ms-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
+    background: -webkit-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
     position: absolute;
     top: 194px;
     left: 126px;
@@ -398,9 +398,9 @@ input {
 }
 #product_parameters_main .view_details:hover, #product_parameters_vice1 .view_details:hover, #product_parameters_vice2 .view_details:hover {
     background: -moz-linear-gradient(top, #25a7e9 0%, #0998df 100%);
-    background: -webkit-linear-gradient(top, #25a7e9 0%, #0998df 100%);
     background: -o-linear-gradient(top, #25a7e9 0%, #0998df 100%);
     background: -ms-linear-gradient(top, #25a7e9 0%, #0998df 100%);
+    background: -webkit-linear-gradient(top, #25a7e9 0%, #0998df 100%);
 }
 
 /*右侧上面*/
@@ -621,21 +621,21 @@ input {
 }
 .gradient_pink{
     background: -moz-linear-gradient(top, #E89AA8 0%, #e27f91 100%);
-    background: -webkit-linear-gradient(top, #E89AA8 0%, #e27f91 100%);
     background: -o-linear-gradient(top, #E89AA8 0%, #e27f91 100%);
     background: -ms-linear-gradient(top, #E89AA8 0%, #e27f91 100%);
+    background: -webkit-linear-gradient(top, #E89AA8 0%, #e27f91 100%);
  }
 #gourmet .food_detail .product a:hover{
     background: -moz-linear-gradient(top, #dc929f 0%, #d67989 100%);
-    background: -webkit-linear-gradient(top, #dc929f 0%, #d67989 100%);
     background: -o-linear-gradient(top, #dc929f 0%, #d67989 100%);
     background: -ms-linear-gradient(top, #dc929f 0%, #d67989 100%);
+    background: -webkit-linear-gradient(top, #dc929f 0%, #d67989 100%);
 }
 .gradient_blue{
     background: -moz-linear-gradient(top, #27b0f6 0%, #0aa1ed 100%);
-    background: -webkit-linear-gradient(top, #27b0f6 0%, #0aa1ed 100%);
     background: -o-linear-gradient(top, #27b0f6 0%, #0aa1ed 100%);
     background: -ms-linear-gradient(top, #27b0f6 0%, #0aa1ed 100%);
+    background: -webkit-linear-gradient(top, #27b0f6 0%, #0aa1ed 100%);
 }
 /* #product_parameters_main .view_details:hover{
 
@@ -845,10 +845,10 @@ input {
     width: 87px;
     text-align:left;
     background: -moz-linear-gradient(top, #f0f0f0 0%, #e0e0e0 100%);
-    background: -webkit-linear-gradient(top, #f0f0f0 0%, #e0e0e0 100%);
     background: -o-linear-gradient(top, #f0f0f0 0%, #e0e0e0 100%);
     background: -ms-linear-gradient(top, #f0f0f0 0%, #e0e0e0 100%);
     background: linear-gradient(top, #f0f0f0 0%, #e0e0e0 100%);
+    background: -webkit-linear-gradient(top, #f0f0f0 0%, #e0e0e0 100%);
     box-shadow: 0px 3px 6px #ccc;
     color: #0aa1ed;
     display: none;
@@ -869,10 +869,10 @@ input {
 }
 .seek_content>div:hover{
     background: -moz-linear-gradient(top, #25a7e9 0%, #0998df 100%);
-    background: -webkit-linear-gradient(top, #25a7e9 0%, #0998df 100%);
     background: -o-linear-gradient(top, #25a7e9 0%, #0998df 100%);
     background: -ms-linear-gradient(top, #25a7e9 0%, #0998df 100%);
     background: linear-gradient(top, #25a7e9 0%, #0998df 100%);
+    background: -webkit-linear-gradient(top, #25a7e9 0%, #0998df 100%);
     color:#fff;
 }
 .seek:after{
@@ -933,9 +933,9 @@ input[type="button"] {
     height:41px;
     line-height: 41px;
     background: -moz-linear-gradient(top, #f5f4f5 0%, #e6e6e5 100%);
-    background: -webkit-linear-gradient(top, #f5f4f5 0%,#e6e6e5 100%);
     background: -o-linear-gradient(top, #f5f4f5 0%,#e6e6e5 100%);
     background: -ms-linear-gradient(top, #f5f4f5 0%,#e6e6e5 100%);
+    background: -webkit-linear-gradient(top, #f5f4f5 0%,#e6e6e5 100%);
     box-shadow: 3px 3px 6px #ccc;
 }
 .pager a{

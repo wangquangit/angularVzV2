@@ -12,6 +12,7 @@
                 obj.empty();
                 //上一页
                 if(args.current > 1){
+                    obj.remove('.prevPage');
                     obj.append('<a href="javascript:;" class="prevPage">上一页</a>');
                 }else{
                     obj.remove('.prevPage');
@@ -66,6 +67,7 @@
                     }
                 });
                 //上一页
+                obj.off("click","a.prevPage"); // 取消已有的事件监听绑定
                 obj.on("click","a.prevPage",function(){
                     var current = parseInt(obj.children("span.current").text());
                     ms.fillHtml(obj,{"current":current-1,"pageCount":args.pageCount});
@@ -73,9 +75,11 @@
                         args.backFn(current-1);
                     }
                 });
-                //下一页
-                obj.on("click","a.nextPage",function(){
+                // 下一页
+                obj.off("click","a.nextPage"); // 取消之前的事件监听绑定
+                obj.one("click","a.nextPage",function(){
                     var current = parseInt(obj.children("span.current").text());
+                    console.log('下一页被点击了', current);
                     ms.fillHtml(obj,{"current":current+1,"pageCount":args.pageCount});
                     if(typeof(args.backFn)=="function"){
                         args.backFn(current+1);

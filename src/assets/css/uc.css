@@ -103,9 +103,9 @@ a{text-decoration:none;}
 #order_list_title{
 
     background: -moz-linear-gradient(top, #f5f4f5 0%, #e6e6e5 100%);
-    background: -webkit-linear-gradient(top, #f5f4f5 0%,#e6e6e5 100%);
     background: -o-linear-gradient(top, #f5f4f5 0%,#e6e6e5 100%);
     background: -ms-linear-gradient(top, #f5f4f5 0%,#e6e6e5 100%);
+    background: -webkit-linear-gradient(top, #f5f4f5 0%,#e6e6e5 100%);
     box-shadow: 3px 3px 6px #ccc;
     height:34px;
 }
@@ -222,17 +222,17 @@ a{text-decoration:none;}
 #orderItem_detail .operate a{
     padding:10px;
     background: -moz-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
-    background: -webkit-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
     background: -o-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
     background: -ms-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
+    background: -webkit-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
     color: #fff;
     border-radius: 2px;
 }
 #orderItem_detail .operate a:hover{
     background: -moz-linear-gradient(top, #25a7e9 0%, #0998df 100%);
-    background: -webkit-linear-gradient(top, #25a7e9 0%, #0998df 100%);
     background: -o-linear-gradient(top, #25a7e9 0%, #0998df 100%);
     background: -ms-linear-gradient(top, #25a7e9 0%, #0998df 100%);
+    background: -webkit-linear-gradient(top, #25a7e9 0%, #0998df 100%);
 }
 #orderItem_detail .trading_status .view_logistics:hover{
 
@@ -249,9 +249,9 @@ a{text-decoration:none;}
     height:41px;
     line-height: 41px;
     background: -moz-linear-gradient(top, #f5f4f5 0%, #e6e6e5 100%);
-    background: -webkit-linear-gradient(top, #f5f4f5 0%,#e6e6e5 100%);
     background: -o-linear-gradient(top, #f5f4f5 0%,#e6e6e5 100%);
     background: -ms-linear-gradient(top, #f5f4f5 0%,#e6e6e5 100%);
+    background: -webkit-linear-gradient(top, #f5f4f5 0%,#e6e6e5 100%);
     box-shadow: 3px 3px 6px #ccc;
     margin-top:25px;
 
@@ -319,9 +319,9 @@ a{text-decoration:none;}
 .rs_header{
     height:36px;
     background: -moz-linear-gradient(top, #f5f4f5 0%, #e6e6e5 100%);
-    background: -webkit-linear-gradient(top, #f5f4f5 0%,#e6e6e5 100%);
     background: -o-linear-gradient(top, #f5f4f5 0%,#e6e6e5 100%);
     background: -ms-linear-gradient(top, #f5f4f5 0%,#e6e6e5 100%);
+    background: -webkit-linear-gradient(top, #f5f4f5 0%,#e6e6e5 100%);
     font:16px simhei;
 }
 .rs_header>span{
@@ -388,9 +388,9 @@ a{text-decoration:none;}
     text-align: center;
     margin-top: 20px;
     background: -moz-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
-    background: -webkit-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
     background: -o-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
     background: -ms-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
+    background: -webkit-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
     color: #fff;
     border-radius: 2px;
     cursor: pointer;
@@ -464,9 +464,9 @@ a{text-decoration:none;}
     height: 24px;
     line-height: 24px;
     background: -moz-linear-gradient(top, #f5f4f5 0%, #e6e6e5 100%);
-    background: -webkit-linear-gradient(top, #f5f4f5 0%,#e6e6e5 100%);
     background: -o-linear-gradient(top, #f5f4f5 0%,#e6e6e5 100%);
     background: -ms-linear-gradient(top, #f5f4f5 0%,#e6e6e5 100%);
+    background: -webkit-linear-gradient(top, #f5f4f5 0%,#e6e6e5 100%);
     text-align: center;
     color: #2ea8ee;
     margin-right: 20px;
@@ -477,9 +477,9 @@ a{text-decoration:none;}
     height: 40px;
     line-height: 40px;
     background: -moz-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
-    background: -webkit-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
     background: -o-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
     background: -ms-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
+    background: -webkit-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
     color: #fff;
     border-radius: 2px;
     cursor: pointer;
@@ -557,9 +557,9 @@ a{text-decoration:none;}
     height: 50px;
     line-height: 50px;
     background: -moz-linear-gradient(top, #ffb30f 0%, #eda50a 100%);
-    background: -webkit-linear-gradient(top, #ffb30f 0%, #eda50a 100%);
     background: -o-linear-gradient(top, #ffb30f 0%, #eda50a 100%);
     background: -ms-linear-gradient(top, #ffb30f 0%, #eda50a 100%);
+    background: -webkit-linear-gradient(top, #ffb30f 0%, #eda50a 100%);
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     text-align: center;
@@ -655,9 +655,9 @@ a{text-decoration:none;}
     line-height: 42px;
     text-align: center;
     background: -moz-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
-    background: -webkit-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
     background: -o-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
     background: -ms-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
+    background: -webkit-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
     color: #fff;
     border-radius: 2px;
     cursor: pointer;
@@ -689,9 +689,9 @@ a{text-decoration:none;}
     line-height: 42px;
     text-align: center;
     background: -moz-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
-    background: -webkit-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
     background: -o-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
     background: -ms-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
+    background: -webkit-linear-gradient(top, #27b1f6 0%, #0aa1ed 100%);
     color: #fff;
     border-radius: 2px;
     cursor: pointer;
