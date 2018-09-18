@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { UserService } from '../user.service';
 
 @Component({
   selector: 'app-header',
@@ -8,16 +9,24 @@ import { Router } from '@angular/router';
 })
 export class HeaderComponent implements OnInit {
   private kw = ''; // 搜索
+  private loginUname; // 意已经登陆了的用户名
 
-  constructor(private router: Router) { }
+  constructor(private router: Router, private service: UserService) { }
 
   ngOnInit() {
+    // 加载当前用户的登陆信息
+    this.service.getSessionData().subscribe(
+      (data: any) => {
+        this.loginUname = data.uname;
+      },
+      err => {
+        console.log('获取会话数据失败:', err);
+      },
+    );
   }
 
   doSearch() {
     // 搜索按钮监听函数
-    // if (this.kw) {
-      // 如果输入框有值,则跳转到产品列表,并携带参数
       this.router.navigateByUrl('/plist/' + this.kw);
   }
 }

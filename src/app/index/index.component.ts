@@ -22,7 +22,6 @@ export class IndexComponent implements OnInit {
     // 这是一个组件声明周期钩子:初始化完成
     this.service.getIndexData().subscribe(
     data => {
-      console.log('成功', data);
       this.indexData = data; // 组件从服务获取数据
       // 模型数据修改,NG监视到了改变,修改了DOM后启用轮播广告
 

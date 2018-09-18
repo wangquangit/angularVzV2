@@ -18,6 +18,8 @@ import { FormsModule } from '@angular/forms';
 import { SlicesStrPipe } from './slices-str.pipe';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { HeaderUserComponent } from './header-user/header-user.component';
+import { UserService } from './user.service';
 
 const router: Routes = [
   {path: '', component: IndexComponent},
@@ -49,7 +51,8 @@ const router: Routes = [
     FooterComponent,
     SlicesStrPipe,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    HeaderUserComponent
   ],
   imports: [
     BrowserModule,
@@ -57,7 +60,9 @@ const router: Routes = [
     HttpClientModule,
     FormsModule
   ],
-  providers: [ProductService],
+  providers: [
+    ProductService,
+    UserService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

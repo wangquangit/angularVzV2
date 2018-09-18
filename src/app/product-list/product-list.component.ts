@@ -23,7 +23,6 @@ export class ProductListComponent implements OnInit {
     // subscribe:订阅
     this.router.params.subscribe(data => {
       this.kw = data.kw ? data.kw : ''; // (三目运算)判断用户是否有输入,如果有则搜索用户输入的关键字,否则搜索全部
-      console.log('搜索的关键字:', this.kw);
       this.loadPager(1); // 初始化完成,加载第一页数据
     });
   }
@@ -31,7 +30,6 @@ export class ProductListComponent implements OnInit {
   loadPager(pno) {
     // 按指定页号加载数据
     this.service.getProductList(pno, this.kw).subscribe(data => {
-      console.log('成功', data);
       this.pager = data; // 组件从服务获取到数据
       // 创建分页条
 

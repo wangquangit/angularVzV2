@@ -4,11 +4,12 @@
 <div id="nav_detail">
     <h5>首页 > 学习用品 > 笔记本电脑 > <span id="fname"></span></h5>
   </div>
-  <!-- <div class="loading">
+  <div class="loading" *ngIf="!details">
     <img src="../../assets/img/loading.gif" alt="加载中...">
-  </div> -->
-  <div class="product_details">
+  </div>
+  <div class="product_details" *ngIf="details">
     <!--产品预览-->
+    <!-- <div [innerHTML]="details.details"></div> -->
     <div id="shop_detail">
       <!-- 左侧-->
       <div id="preview" class="lf">
@@ -17,22 +18,22 @@
         </div>
         <div id="icon_all">
           <ul id="icon_list">
-            <!--<li class="i1"><img src="../../assets/img/product_detail/product_detail_img1.jpg"/></li>-->
-            <!--<li class="i1"><img src="../../assets/img/product_detail/product_detail_img3.jpg"/></li>-->
+            <li class="i1"><img src="../../assets/img/product_detail/product_detail_img1.jpg"/></li>
+            <li class="i1"><img src="../../assets/img/product_detail/product_detail_img3.jpg"/></li>
           </ul>
         </div>
       </div>
       <!-- 右侧-->
       <div class="right_detail lf">
         <!-- 商品名称-->
-        <h1 class="title">Lenovo-YOGA 700</h1>
+        <h1 class="title">{{details.title}}</h1>
         <!-- 商品全称-->
-        <h3 class="subtitle">(i7-7500U 8G 256GSSD 2G独显 全高清IPS 360°翻转 正版office)</h3>
+        <h3 class="subtitle">{{details.subtitle}}</h3>
         <!-- 价格部分-->
         <div class="price">
-          <div id="pro_price"><b>学员售价：</b><span>￥5999.00</span></div>
+          <div id="pro_price"><b>学员售价：</b><span>￥{{details.price}}</span></div>
           <div class="promise">
-            <b>服务承诺：</b>
+            <b>服务承诺：</b>{{details.promise}}
             <!--<span>*退货补运费</span>
             <span>*30天无忧退货</span>
             <span>*48小时快速退款</span>
@@ -46,7 +47,7 @@
         </p>
         <!-- 规格-->
         <div class="spec">
-          <s>规格：</s>
+          <s>规格：</s>{{details.spec}}
           <div>
             <!--<span class="avenge">15寸 15 1T</span>
             <span class="avenge">19寸 19 3T</span>-->

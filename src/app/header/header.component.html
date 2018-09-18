@@ -1,7 +1,7 @@
 <!-- 页面顶部-->
 <header id="top">
   <div id="logo" class="lf">
-    <a href="index.html">
+    <a routerLink="/">
       <img class="animated jello" src="../../assets/img/header/logo.png" alt="logo"/>
     </a>
   </div>
@@ -21,18 +21,22 @@
       <li><a href="my_collect.html" title="我的收藏"><img class="care" src="../../assets/img/header/care.png" alt=""/></a><b>|</b></li>
       <li><a href="lookforward.html" title="用户中心"><img class="order" src="../../assets/img/header/order.png" alt=""/></a><b>|</b></li>
       <li><a href="cart.html" title="我的购物车"><img class="shopcar" src="../../assets/img/header/shop_car.png" alt=""/></a><b>|</b></li>
+      <li></li>
     </ul>
     <ul class="lf login_info">
-      <li><a [routerLink]="'register'" title="注册新用户">&nbsp;注册</a><b>|</b></li>
-      <li><a [routerLink]="'login'" title="用户登录">登录</a></li>
+      <ng-container *ngIf="!loginUname">
+        <li><a routerLink="/register" title="注册新用户">&nbsp;注册</a><b>|</b></li>
+        <li><a routerLink="/login" title="用户登录">登录</a></li>
+      </ng-container>
+      <li *ngIf="loginUname">欢迎回来{{loginUname}}</li>
     </ul>
   </div>
 </header>
 <!-- nav主导航-->
 <nav id="nav">
   <ul>
-    <li><a href="index.html">首页</a></li>
-    <li><a href="lookforward.html" class="activ">学习用品</a></li>
-    <li><a href="lookforward.html">私人定制</a></li>
+    <li><a routerLink="/">首页</a></li>
+      <li><a href="lookforward.html" class="activ">学习用品</a></li>
+      <li><a href="lookforward.html">私人定制</a></li>
   </ul>
 </nav>

@@ -1,0 +1,19 @@
+#top {
+    /*border: 1px solid red;*/
+    height: 52px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+#top .top {
+    margin-left: 40px;
+}
+
+#top span {
+    color: #4f4d4e;
+    font-size: 24px;
+    vertical-align: baseline;
+    position: relative;
+    top: -7px;
+    left:10px;
+}
